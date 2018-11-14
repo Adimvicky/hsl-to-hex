@@ -1,5 +1,5 @@
 {
-  "name": "@adimvicky/hsl-to-hex",
+  "name": "hsl-to-hex",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,12 @@
   "description": "Convert HSL colors to RGB colors in hex format.",
   "dependencies": {
     "hsl-to-rgb-for-reals": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tap": "^12.1.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
